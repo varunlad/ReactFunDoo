@@ -1,0 +1,116 @@
+.note3{
+    height: 120px;
+    width: 20%;
+    margin-top: 10px;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border: 1px solid gainsboro;
+    font:normal 12px ;
+    border-radius: 5px;
+    box-shadow: 5px 5px gainsboro;
+}
+
+.note3a{
+    height: 35px;
+    padding: 5px;
+    width: 98%;
+    margin: 1px;
+    display: flex;
+    justify-content:space-between;
+}
+.note3b{
+    height: 35px;
+    padding: 5px;
+    width: 98%;
+    margin: 1px;
+}
+.note3c{
+    height: 35px;
+    padding: 5px;
+    width: 95%;
+    margin: 1px;
+    display: none;
+    justify-content: space-evenly;
+}
+#image1{
+    display: flex;
+    margin: 8px;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    
+}
+#noteProps{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    
+}
+.note3:hover .note3c{
+    display: flex;
+}
+.noteTwoA{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid gainsboro;
+    background-color: whitesmoke;
+    font:normal 12px "Product Sans";
+    font-family: Arial,sans-serif;
+    height: 125px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px gainsboro;
+    padding: 5px;
+    gap: 5px ;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 33px;  
+    width: 33vw;
+}
+
+#item1{
+    height: 25px;
+    width: 25px;
+}
+
+.OptionsA{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    width: 530px;
+    margin-left: 5px;
+    height: 35px;
+}
+
+.button{
+    border: 1px solid gainsboro;
+}
+#image{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    width: 563px;
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+.unit1A{
+    display: flex;
+    direction: row;
+}
+.unit2a{
+    
+    position: relative;
+    right: 140px;
+}

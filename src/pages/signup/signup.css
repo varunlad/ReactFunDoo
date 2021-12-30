@@ -1,0 +1,140 @@
+.maincontainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 110vh;
+}
+.sets{
+    display: flex;
+    flex-direction: row;
+     border: 1px solid rgb(87, 82, 82); 
+    align-items: flex-start; 
+    border-radius: 10px;
+    margin-top: 140px;
+    width: 50%;
+    height: 80vh;
+}
+.set1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 90vh;
+    width: 28vw;
+    margin-right: 2px;
+}
+
+.set1a{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px 0px 2px 40px;
+    height: 13vh;
+    width: 22vw;
+}
+.googlelogo2{
+    width: 85px;
+    margin-top: 15px;
+    margin: 10px 10px 10px 1px;
+}
+.createtext{
+    font:normal 25px "Product Sans";
+    font-family: Arial,sans-serif;
+}
+.set1b{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 14px 17px 40px;
+    height: 18vh;
+    width: 25vw;
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 10px;
+    height: 5vh;
+    width: 24vw;
+}
+.input{
+    padding: 5px;
+    margin-right: 10px;
+}
+.message{
+    margin-left: 18px;
+    font:normal 10px "Product Sans";
+    font-family: Arial,sans-serif;
+}
+.create{
+    font-weight: bold;
+    padding: 15px;
+    color: rgb(67, 28, 240);
+    
+}
+#text{
+    color: rgb(67, 28, 240);
+    font-weight: bold;
+}
+#text:hover{
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+#text1{
+    margin:0px 10px 8px -20px;
+    color: rgb(67, 28, 240);
+    font-weight: bold;
+}
+#text1:hover{
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.set1c{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px 14px 17px 40px;
+    height: 18vh;
+    width: 25vw; 
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    margin: 0px 0px 10px 0px;
+}
+.checkbox{
+    margin: 10px 10px 10px 10px;
+}
+.set1d{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 14px 17px 40px;
+    height: 18vh;
+    width: 25vw; 
+}
+.nextbutton{
+    display: flex;
+    margin-left: 185px;
+}
+.set2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+    width: 20vw; 
+}
+.set2a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 18vw; 
+    margin-top: 100px;
+    margin-left: 30px;
+}
+#errormsg{
+    color: red;
+    font-size: 10px;
+}

@@ -1,0 +1,26 @@
+.Db-NotesContainer{
+    width: 80%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 300px;
+}
+
+.takeNotesContainer{
+    width:43%;
+    height:135px;
+    position: relative;
+    top:40px;
+    left:300px;
+    display: flex;
+}
+.MainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 65vh;
+    width: 75vw;
+    position: relative;
+    left: 100px;
+    top: 5px;
+}

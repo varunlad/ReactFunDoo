@@ -1,0 +1,82 @@
+.header-Content
+{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: flex-start;
+    height: 8vh;
+    padding: 12px 4px 6px 80px;
+    padding-top: 10px;
+}
+
+.logo-Content
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right:90px;
+    justify-content:space-evenly;
+    padding: 0px 9px 2px 16px;
+}
+#menu{
+    height: 4vh;
+    width: 3vw;
+    margin-top: 5px;
+}
+#smallchild1{
+    height: 6vh;
+    width: 3vw;
+}
+.Keep-Text{
+    font:normal 25px "Product Sans";
+    font-family: Arial,sans-serif;
+    margin-top: 5px;
+}
+.aa{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gainsboro;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 40vw;
+    align-items: center;
+    margin-left: 5px;
+    
+}
+#aa1{
+    height: 3vh;
+    width: 2wh;
+    margin-top: 5px;
+}
+.aa2{
+    font:normal 25px "Product Sans";
+    font-family: Arial,sans-serif;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    width: 50vw;
+    height: 5vh;
+}
+.bb{
+    width: 10vw;
+    height: 6vh;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#setting1{
+    height: 30px ;
+    width:30px;
+}
+.cc{
+    width: 10vw;
+    height: 6vh;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#profile{
+    height: 35px ;
+    width:35px;
+}

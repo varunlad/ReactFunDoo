@@ -1,0 +1,21 @@
+.noteone{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid gainsboro;
+    background-color: whitesmoke;
+    font:normal 22px "Product Sans";
+    font-family: Arial,sans-serif;
+    padding: 10px;
+    box-shadow: 5px 5px gainsboro;
+    height: 46px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+ #item{
+    height: 30px;
+    width: 30px; 
+    margin: 15px;
+} 

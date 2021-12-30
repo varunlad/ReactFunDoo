@@ -1,0 +1,65 @@
+.noteTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid gainsboro;
+    background-color: whitesmoke;
+    font:normal 12px "Product Sans";
+    font-family: Arial,sans-serif;
+    height: 125px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px gainsboro;
+    padding: 5px;
+    gap: 5px ;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 33px;  
+    width: 33vw;
+}
+
+#item1{
+    height: 25px;
+    width: 25px;
+}
+
+.Options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    width: 650px;
+    margin-left: 5px;
+    height: 35px;
+}
+
+.button{
+    border: 1px solid gainsboro;
+}
+#image{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    width: 563px;
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+.unit1{
+    display: flex;
+    direction: row;
+}
+.unit2{
+    
+    position: relative;
+    right: 140px;
+}
+.ant-input:focus, .ant-input-focused {
+    box-shadow: 0 0 0 2px rgb(235 236 237 / 20%);   
+}
